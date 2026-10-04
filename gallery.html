@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kedai Kopi Nusantara - Gallery</title>
+  <meta name="description" content="Galeri suasana, produk, dan momen hangat di Kedai Kopi Nusantara.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-coffee sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kedai Kopi Nusantara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page banner -->
+    <section class="hero-section hero-sm">
+      <div class="container">
+        <span class="eyebrow">Sekilas Suasana Kedai</span>
+        <h1>Galeri</h1>
+        <p class="tagline">Suasana kedai, produk, dan momen hangat di Kedai Kopi Nusantara.</p>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="container">
+        <h2 class="visually-hidden">Galeri Foto</h2>
+        <!-- Carousel -->
+        <!-- Transisi fade -->
+        <div class="gallery-carousel-frame">
+          <div id="galleryCarousel" class="carousel slide carousel-fade gallery-carousel" data-bs-ride="carousel" data-bs-interval="6000" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-xl-4 g-0">
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Interior kedai kopi dengan meja kayu">
+                  </div>
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Meja bar kedai kopi dengan mesin espresso">
+                  </div>
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Secangkir kopi hitam panas di meja kayu">
+                  </div>
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Cappuccino dengan latte art">
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-xl-4 g-0">
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1524350876685-274059332603?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Suasana kedai kopi dengan pengunjung">
+                  </div>
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Biji kopi mentah dalam mangkuk kayu">
+                  </div>
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Kopi dilihat dari atas dengan dekorasi meja">
+                  </div>
+                  <div class="col">
+                    <img src="https://images.unsplash.com/photo-1506372023823-741c83b836fe?auto=format&fit=crop&w=500&q=80"
+                         class="gallery-img" alt="Meja kasir dan konter kedai kopi">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <h2 class="footer-heading">Kedai Kopi Nusantara</h2>
+          <p class="mb-0">Jl. Buah Batu No. 67, Bandung, Jawa Barat 01391 (Samping Rumah Milea)</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-heading">Jam Operasional</h2>
+          <p class="mb-0">Senin - Minggu: 08.00 - 22.00 WIB</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-heading">Ikuti Kami</h2>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#">Instagram</a></li>
+            <li class="list-inline-item"><a href="#">Facebook</a></li>
+            <li class="list-inline-item"><a href="#">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center mb-0">&copy; 2026 Kedai Kopi Nusantara. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
